@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* Colores */
+    --bitcoin-orange : #F7921A;
+    --soft-orange : #FFE9D5;
+    --secondary-blue : #1A9AF7;
+    --soft-blue : #E7F5FF;
+    --warm-black : #201E1C;
+    --warm-black-1 : #282623;
+    --grey : #BABABA;
+    --off-white : #FAF8F7;
+    --just-white : #FFFFFF;
+}
+
