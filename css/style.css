@@ -13,14 +13,17 @@
     --just-white : #FFFFFF;
 }
 
+/* Reseteo de estilos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Fuentes */
 html {
     font-family: 'DM Sans', sans-serif;
 }
+
+
 
