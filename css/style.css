@@ -28,7 +28,7 @@ html {
 .index__body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: 334px repeat(4, 1fr);
    
 }
 
@@ -91,6 +91,7 @@ html {
     
 }
 
+/* Span del icono del botón de navegación */
 .index__icon-button-navegacion{
     display: inline-block;
     width: 13px;
@@ -100,6 +101,44 @@ html {
     background-repeat: no-repeat;
     margin-left: 15px;
 }
+
+/* .......................... */
+/* Dandole estilos al Main */
+/* .......................... */
+
+
+/* Dandole estilos a la sección 1 */
+
+.index-main__section-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.index-main__logo-bit{
+    display: inline-block;
+    width: 195px;
+    height: 195px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.index-main__title-seccion-2{
+    width: 288px;
+    height: 52px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--warm-black);
+}
+
 
 
 
