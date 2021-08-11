@@ -29,6 +29,7 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 334px repeat(4, 1fr);
+    background-color: var(--off-white);
    
 }
 
@@ -139,6 +140,92 @@ html {
     color: var(--warm-black);
 }
 
+.index-main__parrafo-seccion-2{
+    width: 288px;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #757575 ;
+}
 
+.index-main__title-monedas{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FF9536;
+    margin: auto;
+    margin-top: 20px;
+}
 
+.index-main__precio-monedas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.index-main__contenedor-tabla-precios{
+    width: 197px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 8px;
+    grid-gap: 1px;
+}
+
+.index-main__celda-tabla{
+    background-color: var(--just-white);
+}
+
+.index-main__moneda-izquierda{
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.index-main__moneda-bitcoin{
+    grid-column: 1 2;
+    grid-row: 1 2;
+}
+
+.index-main__moneda-ethereum{
+    grid-column: 1 2;
+    grid-row: 2 3;
+}
+
+.index-main__moneda-ripple{
+
+    grid-column: 1 2;
+    grid-row: 3 4; 
+}
+
+.index-main__moneda-stellar{
+    grid-column: 1 2;
+    grid-row: 4 5; 
+}
+
+.index-main__precio-bitcoin{
+    grid-column: 2 3;
+    grid-row: 1 2;  
+}
+
+.index-main__precio-ethereum{
+    grid-column: 2 3;
+    grid-row: 2 3; 
+}
+
+.index-main__precio-ripple{
+    grid-column: 2 3;
+    grid-row: 3 4;
+}
+
+.index-main__precio-stellar{
+    grid-column: 2 3;
+    grid-row: 4 5; 
+}
 
