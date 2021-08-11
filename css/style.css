@@ -80,6 +80,7 @@ html {
     width: 260px;
     height: 48px;
     padding: 10px;
+    padding-top: 12px;
     text-decoration: none;
     top:310px;
     left: calc(50% - 132px);
@@ -92,14 +93,22 @@ html {
     
 }
 
-/* Span del icono del botón de navegación */
-.index__icon-button-navegacion{
+/* Creando un estilo para cada icono */
+.index__icons{
     display: inline-block;
     width: 13px;
     height: 8px;
-    background-image: url("./assents/icons/down-arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+
+/* Span del icono del botón de navegación */
+.index__icon-button-navegacion{
+    
+    background-image: url("./assents/icons/down-arrow.svg");
+    
     margin-left: 15px;
 }
 
@@ -182,50 +191,74 @@ html {
     background-color: var(--just-white);
 }
 
-.index-main__moneda-izquierda{
+.index-main__celda-tabla--arriba-izq{
+    background-color: var(--just-white);
+    border-radius: 8px 0 0 0;
+}
+
+.index-main__celda-tabla--arriba-der{
+    background-color: var(--just-white);
+    border-radius: 0 8px 0 0;
+}
+
+.index-main__celda-tabla--abajo-izq{
+    background-color: var(--just-white);
+    border-radius: 0 0 0 8px;
+}
+
+.index-main__celda-tabla--abajo-der{
+    background-color: var(--just-white);
+    border-radius: 0 0 8px 0;
+}
+
+.index-main__moneda{
     padding-left: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #B5B0AC;
 }
 
-.index-main__moneda-bitcoin{
-    grid-column: 1 2;
-    grid-row: 1 2;
+.index-main__precio {
+    padding-top: 11px;
+    padding-left: 12px;
+    padding-bottom: 11px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #757575;
 }
 
-.index-main__moneda-ethereum{
-    grid-column: 1 2;
-    grid-row: 2 3;
+.index-main__icon-down {
+    
+    background-image: url("/css/assents/icons/trending-down.svg");
+    margin-left: 10px;
 }
 
-.index-main__moneda-ripple{
-
-    grid-column: 1 2;
-    grid-row: 3 4; 
+.index-main__icon-up {
+    background-image: url("/css/assents/icons/trending-up.svg");
+    margin-left: 10px;
 }
 
-.index-main__moneda-stellar{
-    grid-column: 1 2;
-    grid-row: 4 5; 
+.index-main__icono-flecha-izquierda{
+    background-image: url("/css/assents/icons/left-arrow.svg");
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
 }
 
-.index-main__precio-bitcoin{
-    grid-column: 2 3;
-    grid-row: 1 2;  
-}
-
-.index-main__precio-ethereum{
-    grid-column: 2 3;
-    grid-row: 2 3; 
-}
-
-.index-main__precio-ripple{
-    grid-column: 2 3;
-    grid-row: 3 4;
-}
-
-.index-main__precio-stellar{
-    grid-column: 2 3;
-    grid-row: 4 5; 
+.index-main__icono-flecha-derecha{
+    background-image: url("/css/assents/icons/right-arrow.svg");
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
 }
 
