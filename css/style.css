@@ -344,7 +344,7 @@ html {
     font-size: 14px;
     line-height: 18px;
     color:#808080;
-    margin: 5px 0 0 8px;
+    margin: 10px 0 0 8px;
 }
 
 /* Estilando los iconos de las tarjetas */
@@ -375,4 +375,13 @@ html {
 
 .index-main__icon-check{
     background-image: url("/css/assents/icons/check-circle.svg");
+}
+
+
+/* Estilando la sección 3 (imagen) */
+
+.index-main__img-section-3{
+    width: 100%;
+    height: 387px;
+    
 }
