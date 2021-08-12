@@ -117,7 +117,7 @@ html {
 /* .......................... */
 
 
-/* Dandole estilos a la sección 1 */
+/* Dandole estilos a la sección 1 (Tabla de precios) */
 
 .index-main__section-1{
     display: flex;
@@ -158,6 +158,7 @@ html {
     font-weight: 500;
     line-height: 18px;
     color: #757575 ;
+    
 }
 
 .index-main__title-monedas{
@@ -176,6 +177,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 75px;
+
     
 }
 
@@ -263,3 +266,74 @@ html {
     height: 15px;
 }
 
+
+/* Dandole estilos a la sección dos (Tarjetas) */
+
+.index-main__section-2{
+    width: 100%;
+    background-color: var(--warm-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index-main__title-section-2{
+    width: 288px;
+    height: 52px;
+    margin: auto;
+    margin-top: 24px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: var(--just-white);
+    text-align: center;
+
+}
+
+.index-main__parrafo-section-2{
+
+    width: 288px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #808080;
+}
+
+.index-main__cards-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: center;
+
+}
+
+/* Contenedor de la tarjeta */
+
+.index-main-cards{
+
+    width: 288px;
+    height: 152px;
+    margin-top: 16px;
+    background-color: #292727;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+}
+
+.index-main__title-cards{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--just-white);
+    margin: 5px 0 5px 8px;
+}
