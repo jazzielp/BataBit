@@ -314,6 +314,7 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     justify-items: center;
+    margin-bottom: 60px;
 
 }
 
@@ -336,4 +337,42 @@ html {
     line-height: 18px;
     color: var(--just-white);
     margin: 5px 0 5px 8px;
+}
+
+.index-main__parrafo-cards{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color:#808080;
+    margin: 5px 0 0 8px;
+}
+
+/* Estilando los iconos de las tarjetas */
+
+.index__icons--cards{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    margin-top: 5px;
+
+}
+
+.index-main__icon-time{
+    background-image: url("/css/assents/icons/clock.svg");
+    
+}
+
+.index-main__icon-eyes{
+    background-image: url("/css/assents/icons/eye.svg");
+}
+
+.index-main__icon-money{
+    background-image: url("/css/assents/icons/dollar-sign.svg");
+}
+
+.index-main__icon-check{
+    background-image: url("/css/assents/icons/check-circle.svg");
 }
