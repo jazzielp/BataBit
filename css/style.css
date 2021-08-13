@@ -402,3 +402,30 @@ html {
     text-align: center;
     color: var(--just-white);
 }
+
+.index-main__title-section-4{
+    width: 288px;
+    height: 52px;
+    margin: auto;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+
+    color: var(--warm-black);
+}
+
+.index-main__parrafo-section-4 {
+    width: 288px;
+    margin: auto;
+    margin-top: 20px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #757575;
+}
