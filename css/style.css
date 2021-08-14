@@ -28,7 +28,7 @@ html {
 .index__body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 334px repeat(4, 1fr);
+    grid-template-rows: 334px repeat(2, 1fr);
     background-color: var(--off-white);
    
 }
