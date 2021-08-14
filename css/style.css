@@ -429,3 +429,115 @@ html {
     text-align: center;
     color: #757575;
 }
+
+
+.index-main__container-pago {
+    width: 190px;
+    height: 247px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+
+}
+
+
+.index-main__btn-recomendado{
+    width: 101px;
+    height: 31px;
+    padding: 8px;
+    position: absolute;
+    top: 2532px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: var(--just-white);
+}
+
+
+.index-main__pago-anual{
+   font-style: normal;
+   margin-top: 30px;
+   text-align: center;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #000000; 
+}
+
+.index-main__pago-precio{
+    font-family: "inter";
+    font-style: normal;
+    display: flex;
+    
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    letter-spacing: -0.08em;
+    color: #000000;
+}
+
+.index-main__signo-moneda{
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-right: 8px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #363636;
+}
+
+.index-main__nota-precio{
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #757575;
+}
+
+.index-main__btn-escoge{
+   width: 151px;
+   height: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 18px;
+   background-color: var(--off-white);
+   border: 2px solid var(--bitcoin-orange);
+   border-radius: 4px;
+
+   font-style: normal;
+   font-weight: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 18px;
+   text-decoration: none;
+   color: var(--warm-black);
+   
+}
+
+.index-main__icon-btn-escoger{
+
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    
+    background-image: url("/css/assents/icons/orange-right-arrow.svg");
+
+}
