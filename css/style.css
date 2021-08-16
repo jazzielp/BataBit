@@ -169,7 +169,7 @@ html {
     color: #FF9536;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .index-main__precio-monedas{
@@ -177,7 +177,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 75px;
+    margin-bottom: 10px;
 
     
 }
@@ -264,6 +264,25 @@ html {
     margin-left: 10px;
     width: 15px;
     height: 15px;
+}
+
+.index-main__actualizado{
+    width: 173px;
+    /* height: 15px; */
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: var(--warm-black);
+    background-color: var(--soft-orange);
+    border-radius: 8px;
 }
 
 
@@ -376,6 +395,8 @@ html {
 .index-main__icon-check{
     background-image: url("/css/assents/icons/check-circle.svg");
 }
+
+
 
 
 /* Estilando la sección 3 (imagen) */
