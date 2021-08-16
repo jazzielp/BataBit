@@ -288,20 +288,34 @@ html {
 
 /* Dandole estilos a la sección dos (Tarjetas) */
 
+
+
 .index-main__section-2{
     width: 100%;
     background-color: var(--warm-black);
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
 }
+
+.index-main__icon-patata{
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url("./assents/icons/batata.svg");
+    top: -27px;
+    left: calc(50% - 25px);
+}
+
 
 .index-main__title-section-2{
     width: 288px;
     height: 52px;
     margin: auto;
-    margin-top: 24px;
-
+    margin-top: 50px;
+    
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
