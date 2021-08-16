@@ -438,6 +438,9 @@ html {
     color: var(--just-white);
 }
 
+/* Sección 4 (Pagos) */
+
+
 .index-main__title-section-4{
     width: 288px;
     height: 52px;
@@ -466,7 +469,7 @@ html {
 }
 
 
-.index-main__container-pago {
+.index-main__tarjeta-pago {
     width: 190px;
     height: 247px;
     position: relative;
