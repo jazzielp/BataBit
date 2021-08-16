@@ -434,6 +434,7 @@ html {
 .index-main__container-pago {
     width: 190px;
     height: 247px;
+    position: relative;
     margin: auto;
     margin-top: 40px;
     display: flex;
@@ -451,7 +452,7 @@ html {
     height: 31px;
     padding: 8px;
     position: absolute;
-    top: 2532px;
+    top: -15px;
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
     text-decoration: none;
