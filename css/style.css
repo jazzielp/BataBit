@@ -35,7 +35,7 @@ html {
 .index__header
 {
     width: 100%;
-    min-width: 320;
+    min-width: 320px;
     height: 334px;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
     position: relative;
@@ -125,6 +125,12 @@ html {
 /* .......................... */
 /* Dandole estilos al Main */
 /* .......................... */
+
+.index-main{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 40px;
+}
 
 
 /* Dandole estilos a la sección 1 (Tabla de precios) */
