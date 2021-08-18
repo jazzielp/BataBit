@@ -22,13 +22,12 @@
 
 /* Fuentes */
 html {
+    font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
 
 .index__body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 334px repeat(2, 1fr);
+    
     background-color: var(--off-white);
    
 }
@@ -36,55 +35,66 @@ html {
 .index__header
 {
     width: 100%;
+    min-width: 320;
     height: 334px;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
-    grid-row-start: 1;
-    grid-row-end: 2;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: center;
     text-align: center;
 
 }
 
 .index__logo-principal{
-    width: 129;
-    height: 25px;
-    margin: 30px 0;
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.index-header__title-container{
+    width: 90%;
+    min-width: 90px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
 }
 
 .index__titulo{
-    width: 288px;
     
-    margin: 20px auto;
+    
+    
     font-weight: bold;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: var(--just-white);
 
 }
 
 .index__parrafo-principal{
-    width: 288px;
-    margin: 10px  auto;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     color: var(--soft-orange);
 
 }
 
 .index__navegacion-planes{
     position: absolute;
+    display: block;
     width: 260px;
     height: 48px;
-    padding: 10px;
-    padding-top: 12px;
+    padding: 15px;
+    margin-top: 35px;
     text-decoration: none;
-    top:310px;
-    left: calc(50% - 132px);
-    font-size: 16px;
+    top:270px;
+    left: calc(50% - 118px);
+    font-size: 1.6rem;
+    border: none;
     font-weight: bold;
     background-color: var(--off-white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
