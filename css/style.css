@@ -605,3 +605,33 @@ html {
     background-image: url("/css/assents/icons/orange-right-arrow.svg");
 
 }
+
+/* ................. */
+/* Footer */
+/* ................. */
+
+
+.index-footer{
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: var(--bitcoin-orange);
+}
+
+.index-footer__fila-lista{
+    list-style: none;
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    
+}
+
+.index-footer__links{
+    text-decoration: none;
+    color: var(--just-white);
+}
