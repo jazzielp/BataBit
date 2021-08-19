@@ -153,26 +153,26 @@ html {
 }
 
 .index-main__title-seccion-2{
-    width: 288px;
+    width: 90%;
     height: 52px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 25px;
     text-align: center;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: var(--warm-black);
 }
 
 .index-main__parrafo-seccion-2{
-    width: 288px;
+    width: 90%;
     margin: auto;
     padding-bottom: 30px;
     text-align: center;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 1.8rem;
     color: #757575 ;
     
 }
@@ -238,8 +238,8 @@ html {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     letter-spacing: -0.02em;
     color: #B5B0AC;
 }
@@ -251,8 +251,8 @@ html {
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
     letter-spacing: -0.02em;
     color: #757575;
 }
@@ -327,15 +327,15 @@ html {
 
 
 .index-main__title-section-2{
-    width: 288px;
+    width: 90%;
     height: 52px;
     margin: auto;
     margin-top: 50px;
     
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 
     color: var(--just-white);
     text-align: center;
@@ -344,7 +344,7 @@ html {
 
 .index-main__parrafo-section-2{
 
-    width: 288px;
+    width: 90%;
     height: 18px;
     font-style: normal;
     font-weight: 500;
@@ -352,8 +352,8 @@ html {
     line-height: 18px;
     text-align: center;
     margin: auto;
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 2.4rem;
+    margin-bottom: 1.6rem;
     color: #808080;
 }
 
@@ -371,7 +371,9 @@ html {
 
 .index-main-cards{
 
-    width: 288px;
+    width: 90%;
+    min-width: 320px;
+    max-width: 400px;
     height: 152px;
     margin-top: 16px;
     background-color: #292727;
@@ -382,16 +384,16 @@ html {
 .index-main__title-cards{
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     color: var(--just-white);
     margin: 5px 0 5px 8px;
 }
 
 .index-main__parrafo-cards{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     color:#808080;
     margin: 10px 0 0 8px;
 }
@@ -442,14 +444,16 @@ html {
 }
 
 .index-main__title-section-3{
-    width: 288px;
+    width: 90%;
+    min-width: 320px;
+
     height: 26px;
     margin: auto;
     padding-top: 70px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     text-align: center;
     color: var(--just-white);
 }
@@ -458,28 +462,30 @@ html {
 
 
 .index-main__title-section-4{
-    width: 288px;
+    width: 90%;
+    min-width: 320px;
     height: 52px;
     margin: auto;
     margin-top: 50px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     text-align: center;
 
     color: var(--warm-black);
 }
 
 .index-main__parrafo-section-4 {
-    width: 288px;
+    width: 90%;
+    min-width: 320px;
     margin: auto;
     margin-top: 20px;
 
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     text-align: center;
     color: #757575;
 }
@@ -491,10 +497,13 @@ html {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    justify-content: center;
 }
 
 .index-main__tarjeta-pago {
-    width: 190px;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
     height: 247px;
     position: relative;
     scroll-snap-align: center;
