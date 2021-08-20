@@ -152,13 +152,11 @@ html {
     
 }
 
-.index-main__title-seccion-2{
+.index-main__title-seccion-1{
     width: 90%;
     min-width: 300px;
-    height: 52px;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 25px;
     text-align: center;
     font-weight: bold;
     font-size: 2.4rem;
@@ -166,10 +164,11 @@ html {
     color: var(--warm-black);
 }
 
-.index-main__parrafo-seccion-2{
+.index-main__parrafo-seccion-1{
     width: 90%;
     min-width: 300px;
     margin: auto;
+    margin-top: 25px;
     padding-bottom: 30px;
     text-align: center;
     font-size: 1.4rem;
@@ -179,7 +178,7 @@ html {
     
 }
 
-.index-main__title-monedas{
+.index-main__title--monedas{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -190,14 +189,36 @@ html {
     margin-bottom: 20px;
 }
 
+.index-main__title--comisiones{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: var(--secondary-blue);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .index-main__precio-monedas{
     width: 100%;
+    min-width: 300px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    
+    padding-bottom: 60px;
 
     
+}
+
+.index-main__container-section-precio{
+    
+    text-align: center;
+    margin: 0 30px;
+    scroll-snap-align: center;
+
 }
 
 .index-main__contenedor-tabla-precios{
@@ -289,7 +310,7 @@ html {
     /* height: 15px; */
     padding: 5px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-top: 20px;
 
     font-family: "Inter";
     font-style: normal;
@@ -303,9 +324,32 @@ html {
     border-radius: 8px;
 }
 
+.index-main__actualizado--comisiones{
+    background-color: var(--soft-blue);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
 /* Dandole estilos a la sección dos (Tarjetas) */
-
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
 
 
 .index-main__section-2{
@@ -331,10 +375,8 @@ html {
 .index-main__title-section-2{
     width: 90%;
     min-width: 300px;
-    height: 52px;
     margin: auto;
     margin-top: 50px;
-    
     font-style: normal;
     font-weight: bold;
     font-size: 2.4rem;
@@ -352,12 +394,12 @@ html {
     height: 18px;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     text-align: center;
     margin: auto;
-    margin-top: 2.4rem;
-    margin-bottom: 1.6rem;
+    margin-top: 24px;
+    margin-bottom: 16px;
     color: #808080;
 }
 
@@ -434,7 +476,26 @@ html {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
 /* Estilando la sección 3 (imagen) */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
 
 .index-main__section-3{
     width: 100%;
@@ -449,8 +510,6 @@ html {
 .index-main__title-section-3{
     width: 90%;
     min-width: 300px;
-
-    height: 26px;
     margin: auto;
     padding-top: 70px;
     font-style: normal;
@@ -461,13 +520,31 @@ html {
     color: var(--just-white);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
 /* Sección 4 (Pagos) */
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
 
 
 .index-main__title-section-4{
     width: 90%;
     min-width: 300px;
-    height: 52px;
     margin: auto;
     margin-top: 50px;
     font-style: normal;
@@ -483,7 +560,7 @@ html {
     width: 90%;
     min-width: 300px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 24px;
 
     font-style: normal;
     font-weight: 500;
@@ -500,7 +577,7 @@ html {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    justify-content: center;
+    
 }
 
 .index-main__tarjeta-pago {
