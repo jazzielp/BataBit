@@ -154,6 +154,7 @@ html {
 
 .index-main__title-seccion-2{
     width: 90%;
+    min-width: 300px;
     height: 52px;
     margin: auto;
     margin-top: 10px;
@@ -167,6 +168,7 @@ html {
 
 .index-main__parrafo-seccion-2{
     width: 90%;
+    min-width: 300px;
     margin: auto;
     padding-bottom: 30px;
     text-align: center;
@@ -328,6 +330,7 @@ html {
 
 .index-main__title-section-2{
     width: 90%;
+    min-width: 300px;
     height: 52px;
     margin: auto;
     margin-top: 50px;
@@ -345,6 +348,7 @@ html {
 .index-main__parrafo-section-2{
 
     width: 90%;
+    min-width: 300px;
     height: 18px;
     font-style: normal;
     font-weight: 500;
@@ -361,7 +365,6 @@ html {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
     justify-items: center;
     margin-bottom: 60px;
 
@@ -372,7 +375,7 @@ html {
 .index-main-cards{
 
     width: 90%;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 400px;
     height: 152px;
     margin-top: 16px;
@@ -445,7 +448,7 @@ html {
 
 .index-main__title-section-3{
     width: 90%;
-    min-width: 320px;
+    min-width: 300px;
 
     height: 26px;
     margin: auto;
@@ -463,7 +466,7 @@ html {
 
 .index-main__title-section-4{
     width: 90%;
-    min-width: 320px;
+    min-width: 300px;
     height: 52px;
     margin: auto;
     margin-top: 50px;
@@ -478,7 +481,7 @@ html {
 
 .index-main__parrafo-section-4 {
     width: 90%;
-    min-width: 320px;
+    min-width: 300px;
     margin: auto;
     margin-top: 20px;
 
